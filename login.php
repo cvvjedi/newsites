@@ -149,6 +149,15 @@
             font-size: 1rem;
         }
 
+        .logo-image {
+            width: 260px;
+            max-width: 70%;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.45);
+            filter: drop-shadow(0 0 18px rgba(108, 92, 231, 0.45));
+        }
+
         /* Tabs */
         .tabs {
             display: flex;
@@ -550,6 +559,7 @@
         <!-- Header -->
         <div class="header">
             <div class="logo">
+                <img class="logo-image" src="assets/login-hero.png" alt="PNCH login artwork">
                 <div class="logo-icon">
                     <i class="fas fa-database"></i>
                 </div>
